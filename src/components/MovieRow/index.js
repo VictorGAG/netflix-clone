@@ -30,7 +30,7 @@ function Components({title, items}) {
   return (
     <div className="mr">
         <h2>{title}</h2>
-
+        
         <div className="mr-left" onClick={handleLeftArrow}>
           <NavigateBeforeIcon style={{fontSize: 50}} />
         </div>
