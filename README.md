@@ -1,5 +1,6 @@
-# NETFLIX CLONE - REAC
-## Clone do netflix para usar de portifolio
+<h1 align="center">NETFLIX CLONE - REACT</h1>
+
+<p align="center">Clone do netflix para usar de portifolio</p>
 
 <h1 align="center">
     <a href="https://pt-br.reactjs.org/">🔗 React</a>
