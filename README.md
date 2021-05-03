@@ -29,5 +29,5 @@
 
 - [x] Lista de filmes
 - [x] Filme em exibição
-- []  Mais informações
-- []  Cadastro usuario e login
+- [ ] Mais informações
+- [ ] Cadastro usuario e login
