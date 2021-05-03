@@ -23,7 +23,7 @@
 
 <img src="./src/screenshots/Screenshot_1.png"/>
 
-<p> Este é o clone do netflix, feito utilizando reactjs e a api do site themoviedb.</p>
+<p align="center"> Este é o clone do netflix, feito utilizando reactjs e a api do site themoviedb.</p>
 
 ### Features 
 
