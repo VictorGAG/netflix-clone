@@ -1,0 +1,66 @@
+.mr {
+    margin-bottom: 30px;
+}
+.mr h2{
+    margin: 0px 0px 0px 30px;
+}
+
+.mr-listarea {
+    overflow-x: hidden;
+    padding-left: 30px;
+}
+
+.mr-list {
+    transition: 0.5s;
+}
+
+.mr-item{
+    display: inline-block;
+    width: 400px;
+    
+}
+
+.mr-item img{
+    width: 100%;
+    transform: scale(0.9);
+    transition: all ease 0.4s;
+}
+
+.mr-item img:hover{
+    transform: scale(1);
+    cursor: pointer;
+}
+
+.mr-left, .mr-right {
+    position: absolute;
+    width: 40px;
+    height: 225px;
+    background-color: rgba(0, 0, 0, 0.6);
+    z-index: 10; 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden; 
+    cursor: pointer;
+    opacity: 0;
+    transition: 0.7s;
+}
+
+.mr-left {
+    left: 0;
+}
+
+.mr-right {
+    right: 0;
+}
+
+.mr:hover .mr-left, .mr:hover .mr-right {
+    opacity: 1;
+}
+
+@media (max-width:760px) {
+    .mr-left, .mr-right {
+        opacity: 1;
+    }
+
+}
